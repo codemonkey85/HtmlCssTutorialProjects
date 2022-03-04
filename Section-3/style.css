@@ -1,19 +1,14 @@
-:root {
-  --text-color: #444;
-  --background-color: #f7f7f7;
-  --header-color: #1098ad;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
+body {
+  --background-color: #f7f7f7;
+  --header-color: #1098ad;
+  color: #444;
   font-family: sans-serif;
-  color: var(--text-color);
+  border-top: 5px solid var(--header-color);
 }
 
 h1,
@@ -49,6 +44,7 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 footer p {
@@ -58,10 +54,6 @@ footer p {
 #author {
   font-style: italic;
   font-size: 18px;
-}
-
-#copyright {
-  font-size: 16px;
 }
 
 .related-author {
@@ -75,11 +67,11 @@ footer p {
 
 .main-header {
   background-color: var(--background-color);
+  padding: 20px 40px;
 }
 
 aside {
   background-color: var(--background-color);
-  border-top: 5px solid var(--header-color);
 }
 
 li:first-child {
@@ -88,6 +80,7 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
+  margin-bottom: 0;
 }
 
 a:link {
@@ -108,4 +101,25 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+#copyright {
+  font-size: 16px;
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+}
+
+nav {
+  font-size: 18px;
 }
