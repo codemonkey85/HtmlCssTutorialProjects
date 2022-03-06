@@ -158,3 +158,14 @@ article {
   width: 800px;
   margin: 0 auto;
 }
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
